@@ -1,10 +1,15 @@
 * {
-    background-color: #2c3639;
-    margin: none;
-    padding: none;
+    margin: 0;
+    padding: 0;
     font-family: Poppins;
 }
 
+body{
+    background-color: #2c3639;
+}
+
+
+/*Start of the header styling*/
 .container-header {
     display: flex;
     justify-content: space-between;
@@ -12,10 +17,12 @@
 }
 
 .container-header h1 {
+    color: #a27b5c;
     margin: 40px;
     margin-left: 100px;
     font-size: 64px;
     font-family: Righteous;
+    cursor: pointer;
 }
 
 nav {
@@ -46,8 +53,10 @@ li a:hover {
     transition: .5s;
 }
 
+
+/*Start of the hero-section styling*/
 .container-hero {
-    min-height: 100vh;
+    min-height: 60vh;
     max-width: 40%;
     padding: 80px;
     margin-left: 100px;
@@ -71,6 +80,7 @@ button {
     font-size: 2vh;
     font-weight: 600;
     color: #dcd7c9;
+    background-color: transparent;
     padding: 20px;
     width: 140px;
     margin-top: 20px;
@@ -83,4 +93,63 @@ button:hover {
     background-color: #dcd7c9;
     color: #2c3639;
     transition: .5s;
+}
+
+
+/*Start of the information section styling*/
+.container-info {
+    background-color: #dcd7c9;
+    min-height: 100vh;
+}
+
+.info {
+    background-color: #dcd7c9;
+    padding: 40px;
+}
+
+.container-info .info h2 {
+    text-align: center;
+    font-size: 5vh;
+    background-color: transparent;
+    color: #2c3639;
+}
+
+.images {
+    display:flex;
+    justify-content: center;
+    color: #dcd7c9;
+    padding: 10px;
+    margin: 40px;
+}
+
+.info .images .box1{
+    border: #2c3639 solid 2px;
+    border-radius: 10px;
+    height: 200px;
+    width: 200px;
+    margin: 40px;
+}
+
+.info .images .box2{
+    border: #2c3639 solid 2px;
+    border-radius: 10px;
+    height: 200px;
+    width: 200px;
+    margin: 40px;
+}
+
+.info .images .box3{
+    border: #2c3639 solid 2px;
+    border-radius: 10px;
+    height: 200px;
+    width: 200px;
+    margin: 40px;
+}
+
+.info .images .box4{
+    border: #2c3639 solid 2px;
+    border-radius: 10px;
+    height: 200px;
+    width: 200px;
+    margin: 40px;
 }

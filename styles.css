@@ -56,6 +56,8 @@ li a:hover {
 
 /*Start of the hero-section styling*/
 .container-hero {
+    display: flex;
+    flex-wrap: nowrap;
     min-height: 60vh;
     max-width: 40%;
     padding: 80px;
@@ -115,41 +117,40 @@ button:hover {
 }
 
 .images {
-    display:flex;
+    display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     color: #dcd7c9;
     padding: 10px;
     margin: 40px;
 }
 
-.info .images .box1{
-    border: #2c3639 solid 2px;
+.info .images .box1,
+.box2, .box3, .box4 {
+    border: #2c3639 solid 3px;
     border-radius: 10px;
     height: 200px;
     width: 200px;
     margin: 40px;
+    cursor: pointer;
 }
 
-.info .images .box2{
-    border: #2c3639 solid 2px;
+.info .images .box1,
+.box2, .box3, .box4:hover {
+    border: #2c3639 solid 3px;
     border-radius: 10px;
     height: 200px;
     width: 200px;
     margin: 40px;
+    cursor: pointer;
 }
 
-.info .images .box3{
-    border: #2c3639 solid 2px;
-    border-radius: 10px;
-    height: 200px;
-    width: 200px;
-    margin: 40px;
-}
-
-.info .images .box4{
-    border: #2c3639 solid 2px;
-    border-radius: 10px;
-    height: 200px;
-    width: 200px;
-    margin: 40px;
+.info .images p {
+    font-size: 18px;
+    text-align: center;
+    opacity: 100%;
+    margin-top: 40px;
+    max-width: 60%;
+    color: #2c3639;
+    transition: .5s;
 }

@@ -101,7 +101,7 @@ button:hover {
 /*Start of the information section styling*/
 .container-info {
     background-color: #dcd7c9;
-    min-height: 100vh;
+    min-height: 75vh;
 }
 
 .info {

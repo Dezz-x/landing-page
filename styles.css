@@ -171,3 +171,10 @@ button:hover {
     margin-left: 0px;
     line-height: 100px;
 }
+
+/*=====Start of signup=====*/
+
+.signup-container {
+    background-color: #dcd7c9;
+    min-height: 75vh;
+}

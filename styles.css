@@ -177,4 +177,31 @@ button:hover {
 .signup-container {
     background-color: #dcd7c9;
     min-height: 75vh;
+    padding: 40px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.signup {
+    background-color: #a27b5c;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.signup p {
+    color: #2c3639;
+    margin-left: 0px;
+    margin-right: 100px;
+}
+
+.signup button {
+    color: #2c3639;
+    margin: 0px;
+    padding: 10px;
+    border: 2px solid #2c3639;
+    border-radius: 5px;
 }

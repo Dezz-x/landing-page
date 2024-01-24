@@ -59,7 +59,7 @@ li a:hover {
 .container-hero {
     display: flex;
     flex-wrap: nowrap;
-    min-height: 60vh;
+    min-height: 75vh;
     max-width: 40%;
     padding: 80px;
     margin-left: 100px;
@@ -169,4 +169,5 @@ button:hover {
     font-style: italic;
     opacity: 100%;
     margin-left: 0px;
+    line-height: 100px;
 }

@@ -58,24 +58,28 @@ li a:hover {
 /*=====Start of the hero-section======*/
 .container-hero {
     display: flex;
-    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
     min-height: 75vh;
-    max-width: 40%;
-    padding: 80px;
-    margin-left: 100px;
+    padding: 40px 200px;
+}
+
+section {
+    justify-content: center;
+    padding: 40px;
 }
 
 section h1 {
     font-size: 8vh;
-    margin-left: 40px;
     color: #dcd7c9;
+    margin-bottom: 10px;
 }
 
 section p {
     font-size: 2.5vh;
     opacity: 80%;
-    margin-left: 40px;
     color: #dcd7c9;
+    margin-bottom: 10px;
 }
 
 button {
@@ -87,7 +91,6 @@ button {
     padding: 20px;
     width: 140px;
     margin-top: 20px;
-    margin-left: 40px;
     cursor: pointer;
     transition: .5s;
 }
@@ -98,6 +101,12 @@ button:hover {
     transition: .5s;
 }
 
+.image-placeholder {
+    margin: 40px;
+    height: 50vh;
+    width: 50vh;
+    border: 2px solid #dcd7c9;
+}
 
 /*=====Start of the information=====*/
 .container-info {

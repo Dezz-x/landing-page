@@ -66,7 +66,9 @@ li a:hover {
 
 section {
     justify-content: center;
+    min-width: 50%;
     padding: 40px;
+    margin-right: 40px;
 }
 
 section h1 {
@@ -104,7 +106,7 @@ button:hover {
 .image-placeholder {
     margin: 40px;
     height: 50vh;
-    width: 50vh;
+    width: 90vh;
     border: 2px solid #dcd7c9;
 }
 
